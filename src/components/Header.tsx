@@ -2,9 +2,6 @@ import Link from "next/link";
 import Hamburger from "./Hamburger";
 import Image from "next/image";
 import SearchBar from "./SearchBar";
-import Notification from "./Notification";
-import Cart from "./Cart";
-import Avatar from "./Avatar";
 import NavbarIcons from "./NavbarIcons";
 
 function Header() {
