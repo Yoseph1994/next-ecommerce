@@ -33,7 +33,7 @@ function NavbarIcons() {
         onClick={handleProfile}
       />
       {isProfileOpen && (
-        <div className="absolute flex flex-col p-4 px-8 py-8 rounded-md shadow-[0_3px_10px_rgb(0,0,0,0.8)] z-20 top-12">
+        <div className="absolute flex flex-col p-4 px-8 py-8 rounded-md shadow-[0_3px_10px_rgb(0,0,0,0.8)] bg-white  z-20 top-12">
           <Link href="/profile">Profile</Link>
           <div className="mt-2 cursor-pointer">Logout</div>
         </div>
