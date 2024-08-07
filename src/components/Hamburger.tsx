@@ -18,7 +18,7 @@ function Hamburger() {
       />
 
       {isOpen && (
-        <div className="absolute bg-black text-white left-0 top-20 w-full flex flex-col items-center justify-center text-xl z-10 gap-8 h-[calc(100vh-80px)]">
+        <div className="absolute bg-black text-white left-0 top-20 w-full flex flex-col items-center justify-center text-xl z-30 gap-8 h-[calc(100vh-80px)]">
           <Link href="/">Home</Link>
           <Link href="/">Home</Link>
           <Link href="/">Home</Link>
