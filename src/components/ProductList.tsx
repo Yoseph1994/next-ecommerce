@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const ProductList = () => {
   return (
-    <div className="mt-12 flex gap-x-8 gap-y-16 justify-between flex-wrap">
+    <div className="-z-10 mt-12 flex gap-x-8 gap-y-16 justify-between flex-wrap">
       {/* The links itself is only one item  */}
       <Link
         href="/test"
