@@ -20,10 +20,12 @@ const ListPage = async () => {
           <Image src="/woman.png" alt="" fill className="object-contain" />
         </div>
       </div>
+
+      {/* FILTER */}
       <Filter />
+
       <h1 className="mt-8 font-light text-xl tracking-wide">Shoes For You</h1>
       <ProductList />
-      {/* FILTER */}
     </div>
   );
 };
